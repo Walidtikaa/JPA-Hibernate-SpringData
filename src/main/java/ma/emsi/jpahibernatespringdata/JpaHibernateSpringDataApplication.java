@@ -20,10 +20,11 @@ public class JpaHibernateSpringDataApplication implements CommandLineRunner {
         SpringApplication.run(JpaHibernateSpringDataApplication.class, args);
     }
 
+
     @Override
     public void run(String... args) throws Exception {
         for (int i=0; i < 100 ; i++) {
-            patientRepository.save(new Patient(null,"Marouane",new Date(),Math.random()>0.5?true:false,(int)(Math.random()*100)));
+            patientRepository.save(new Patient(null,"Walid",new Date(),Math.random()>0.5?true:false,(int)(Math.random()*100)));
         }
         Page<Patient> patients = patientRepository.findAll(PageRequest.of(1,10));
         System.out.println("Total pages: "+patients.getTotalPages());
