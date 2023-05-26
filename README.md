@@ -11,13 +11,13 @@
 <h6> - DateNaissanec de type Date<br> </h6>
 <h6> - Malade de type boolean<br> </h6>
 <h6> - Score de type int <br> </h6>
-<img src="Screenshots/2.PNG">
+<img src="Screenshots/c2.PNG">
 
 <h4>3. Configuration de l'unité de persistance dans le ficher application.properties </h4>
 <img src="Screenshots/3.PNG">
 
 <h4>4. Créer l'interface JPA Repository basée sur Spring data</h4>
-<img src="Screenshots/4.PNG">
+<img src="Screenshots/c4.PNG">
 
 <h4>5. Tester quelques opérations de gestion de patients :<br></h4>
 <h6> - Ajouter des patients<br> </h6>
