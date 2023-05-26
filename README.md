@@ -26,5 +26,5 @@
 <h6> - Chercher des patients<br> </h6>
 <h6> - Mettre à jour un patient <br> </h6>
 <h6> - Supprimer un patient <br> </h6>
-  <img src="Screenshots/5.jpg">
+  <img src="Screenshots/c5.PNG">
   <img src="Screenshots/6.PNG">
